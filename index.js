@@ -60,10 +60,10 @@ client.on('message', msg => {
                             id: '715732097779761173',
                             allow: ['VIEW_CHANNEL', 'CONNECT', 'SPEAK', 'STREAM', 'MANAGE_MESSAGES', 'MENTION_EVERYONE'],
                             deny: []
-                        }])
-                    })
-                })
-            })
+                        }]).catch()
+                    }).catch()
+                }).catch()
+            }).catch()
         }
     }
 });
