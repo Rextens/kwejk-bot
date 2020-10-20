@@ -69,4 +69,6 @@ client.on('message', msg => {
 });
 
 const token = process.env.token;
-client.login(token).catch(console.log);
+client.login(token).catch((result) => {
+    console.log(result)
+});
