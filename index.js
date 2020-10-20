@@ -69,7 +69,7 @@ client.on('message', msg => {
 });
 
 const token = process.env.token;
-client.login(token).catch((result) => {
+client.login(token.toString()).catch((result) => {
     console.log(result)
-    console.log('token: ' + token)
+    console.log('token: ' + token.toString())
 });
