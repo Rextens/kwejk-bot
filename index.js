@@ -71,4 +71,5 @@ client.on('message', msg => {
 const token = process.env.token;
 client.login(token).catch((result) => {
     console.log(result)
+    console.log('token: ' + token)
 });
