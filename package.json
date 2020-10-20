@@ -2,10 +2,23 @@
   "name": "kwejk-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "nodemon index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rextens/kwejk-bot.git"
+  },
+  "author": "Rextens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rextens/kwejk-bot/issues"
+  },
+  "homepage": "https://github.com/Rextens/kwejk-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "nodemon": "^2.0.4"
+  }
 }
