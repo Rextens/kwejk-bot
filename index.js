@@ -69,4 +69,5 @@ client.on('message', msg => {
 });
 
 const token = process.env.token;
-client.login(token);
+
+Discord.Client().login(token)
